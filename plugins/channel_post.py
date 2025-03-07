@@ -1,4 +1,4 @@
-# (©) iBOX TV
+# (©) K-ZEN TV
 
 import asyncio
 from pyrogram import filters, Client
