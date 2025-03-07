@@ -1,4 +1,4 @@
-# (©) iBOX TV - UI & UX Improved Version
+# (©) K-ZEN - UI & UX Improved Version
 
 from aiohttp import web
 from plugins import web_server
@@ -13,7 +13,7 @@ from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name="iBOX_Bot",
+            name="K_Zen_Bot",
             api_hash=API_HASH,
             api_id=APP_ID,
             plugins={"root": "plugins"},
@@ -27,7 +27,7 @@ class Bot(Client):
         usr_bot_me = await self.get_me()
         self.uptime = datetime.now()
 
-        self.LOGGER(__name__).info("🚀 Starting iBOX TV Bot... Please wait!")
+        self.LOGGER(__name__).info("🚀 Starting K-ZEN TV Bot... Please wait!")
         
         # ✅ Force Subscription Setup
         if FORCE_SUB_CHANNEL:
@@ -60,7 +60,7 @@ class Bot(Client):
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
             self.db_channel = db_channel
-            test = await self.send_message(chat_id=db_channel.id, text="✅ iBOX TV Bot Test Message.")
+            test = await self.send_message(chat_id=db_channel.id, text="✅ K-ZEN TV Bot Test Message.")
             await test.delete()
             self.LOGGER(__name__).info(f"📦 Connected to Database Channel: {db_channel.title}")
         except Exception as e:
@@ -69,7 +69,7 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"✅ iBOX TV Bot is LIVE and Ready to Serve!")
+        self.LOGGER(__name__).info(f"✅ K-ZEN TV Bot is LIVE and Ready to Serve!")
         self.username = usr_bot_me.username
 
         # ✅ Web Server Setup
@@ -80,4 +80,4 @@ class Bot(Client):
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("🔴 iBOX TV Bot Stopped. See you again!")
+        self.LOGGER(__name__).info("🔴 K-ZEN TV Bot Stopped. See you again!")
