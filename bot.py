@@ -1,4 +1,4 @@
-# (©) K-ZEN - UI & UX Improved Version
+# (©) K-ZEN TV - UI & UX Improved Version
 
 from aiohttp import web
 from plugins import web_server
