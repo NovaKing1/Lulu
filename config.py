@@ -1,4 +1,4 @@
-# (©) iBOX TV
+# (©) K-ZEN TV
 
 import os
 import logging
@@ -25,8 +25,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "bot13")
 
 # Channel & Owner Details
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001973418807"))
-OWNER = os.environ.get("OWNER", "iBOXTVADS")
-OWNER_ID = int(os.environ.get("OWNER_ID", "6124171612"))
+OWNER = os.environ.get("OWNER", "Roverxstar")
+OWNER_ID = int(os.environ.get("OWNER_ID", "7106166920"))
 
 # Bot Working Port
 PORT = int(os.environ.get("PORT", "8030"))
@@ -51,7 +51,7 @@ except ValueError:
 START_MSG = os.environ.get(
     "START_MESSAGE",
     "<b>👋 Hello, {first}!</b>\n\n"
-    "I am <b>iBOX TV File Share Bot</b>. 📺\n"
+    "I am <b>K-Zen TV File Share Bot</b>. 📺\n"
     "Click on the <b>Season</b> or <b>Episode</b> buttons sent by the admin to fetch your favorite TV shows! 🎬"
 )
 
