@@ -1,4 +1,4 @@
-# (©) iBOX TV
+# (©) K-ZEN TV
 
 import base64
 import re
