@@ -1,4 +1,4 @@
-to# (©) K-ZEN TV
+# (©) K-ZEN TV
 
 import os
 import asyncio
