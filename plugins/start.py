@@ -1,4 +1,4 @@
-# (©) iBOX TV
+to# (©) K-ZEN TV
 
 import os
 import asyncio
