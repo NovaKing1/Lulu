@@ -16,12 +16,12 @@ HEROKU_APP_URL = os.environ.get("HEROKU_APP_URL", "https://your-app.herokuapp.co
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 # Telegram API Credentials (from my.telegram.org)
-APP_ID = int(os.environ.get("APP_ID", "5166878"))
-API_HASH = os.environ.get("API_HASH", "fdafb41f9a67f40e34a6c67f47730a92")
+APP_ID = int(os.environ.get("APP_ID", "23562561"))
+API_HASH = os.environ.get("API_HASH", "a7974b5ef6b47b6457dc5ddb568e5ce7")
 
 # Database Configuration
 DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "bot13")
+DB_NAME = os.environ.get("DATABASE_NAME", "KZEN DB")
 
 # Channel & Owner Details
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001973418807"))
