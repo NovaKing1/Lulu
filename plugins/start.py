@@ -79,7 +79,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("ℹ️ About", callback_data="about"),
-                 InlineKeyboardButton("🎬 iBOX TV", url="https://t.me/K_ZenTv")]
+                 InlineKeyboardButton("🎬 K-ZEN TV TV", url="https://t.me/K_ZenTv")]
             ]
         )
         await message.reply_text(
