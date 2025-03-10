@@ -24,7 +24,7 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "KZENDB")
 
 # Channel & Owner Details
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001973418807"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER = os.environ.get("OWNER", "Roverxstar")
 OWNER_ID = int(os.environ.get("OWNER_ID", "7106166920"))
 
