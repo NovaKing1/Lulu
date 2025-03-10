@@ -41,7 +41,7 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002311266823"))
 # Admins List
 try:
     ADMINS = [OWNER_ID]  # Always include the owner as admin
-    ADMINS.extend([int(x) for x in os.environ.get("ADMINS", "762308466").split()])
+    ADMINS.extend([int(x) for x in os.environ.get("ADMINS", "7371865855").split()])
 except ValueError:
     raise Exception("❌ ERROR: Your Admins list does not contain valid integers.")
 
