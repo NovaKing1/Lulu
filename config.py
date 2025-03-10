@@ -21,7 +21,7 @@ API_HASH = os.environ.get("API_HASH", "a7974b5ef6b47b6457dc5ddb568e5ce7")
 
 # Database Configuration
 DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "KZEN DB")
+DB_NAME = os.environ.get("DATABASE_NAME", "KZENDB")
 
 # Channel & Owner Details
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001973418807"))
